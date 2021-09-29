@@ -31,7 +31,9 @@ int main() {
 
    Array2D a6(2, 3, 1);
    Array2D a7(3, 2, 1);
+
    Array2D res = a6 * a7;
+   
    if ((res(0,0) == 3) && (res(0,1) == 3) && (res(1,0) == 3) && (res(1,1) == 3)) {
       std::cout << "op* ok" << std::endl;
    } else {
